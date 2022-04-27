@@ -1,0 +1,346 @@
+html{
+   
+   width: 100%;
+}
+
+body{
+   background-color:  hsl(218, 28%, 13%);
+   font-family: OpenSans;
+   font-size: 14px;
+   font-weight: 400;
+   color: white;   
+   line-height: 25px;
+
+
+   width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: "Raleway";
+   font-weight:  700;
+}
+
+
+.nav{
+color: white;
+ display: flex;
+ margin: 15px;
+
+}
+
+.logo-pic{
+color:  hsl(217, 28%, 15%);
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: white;
+
+}
+
+.logo{
+    
+   font-size: 40px;
+   font-family:"Raleway";
+
+   
+}
+.nav-icons{
+position: absolute;
+margin-left: 1000px;
+
+}
+
+.nav-icons ul{
+   display: flex;
+}
+
+.nav-icons li {
+   list-style: none;
+display: inline-block;
+   opacity: 0.6;
+margin-left: 30px;
+  
+   
+}
+li{
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+}
+
+.nav-icons li a:hover{
+text-decoration: underline;
+cursor: pointer;
+font-weight: bold;
+
+color: white;
+}
+
+.showcase-intro{
+   display: flex;  
+   justify-content: center;
+
+}
+
+
+.showcase-intro img { 
+  
+   height: auto;
+   width: auto;
+ max-width: 500px;
+   flex-direction: column;
+ }
+
+
+ .intro-info {
+    color:  hsl(0, 0%, 100%);
+    text-align: center;
+ }
+ .intro-info p{
+    margin-top: 2em;
+ 
+ }
+button{
+    padding: 15px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 25px;
+    color: white;
+    width: 250px;
+ }
+ .columns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     justify-content: center;
+ }
+ .col-item{
+   
+    text-align: center;
+    width: 30%;
+    margin: 50px;
+    padding: 10px;
+ }
+ .col-info{
+    width: 40%;
+ 
+ }
+
+ .col-info h1{
+   font-size: 40px;
+   justify-content: left;
+   line-height: 45px;
+ }
+.col-info a{
+   text-decoration:underline ;
+   color:hsl(198, 60%, 50%);
+}
+
+.testimonials{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.test{
+   background-color:  hsl(219, 30%, 18%);
+   width: 25%;
+   color: hsl(0, 0%, 100%);
+   margin: 35px;
+   padding: 15px;
+  
+}
+
+.test-info{
+    display: flex;
+   
+}
+
+.test img{
+   border-radius: 25px;
+   width: 25px;
+   height: 25px;
+}
+.test .tes-name{
+   font-size: 13px;
+
+   margin-left: 10px;
+}
+.tes-name h3 ,.tes-name h6{
+   margin: 0px;
+}
+
+.news-letter{
+   text-align: center;
+   background-color: hsl(219, 30%, 18%);
+   width: 50%;
+   padding: 20px;
+   margin-left: 300px;
+   position: absolute;
+   justify-content: center;
+
+}
+.news-letter button{
+   width: 150px;
+   padding: 10px;
+   margin-left: 20px;
+}
+
+.news-letter input[type=email]{
+   border-radius: 25px;
+width: 60%;
+   padding: 10px;
+}
+
+.footer{
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: hsl(216, 53%, 9%);
+   margin-top: 150px;
+   padding-top: 100px;
+
+}
+.ft-cont{
+   display: flex;
+}
+.ft-cont .location{
+   width: 20%;
+   margin: 20px;
+}
+.social-media i{
+   border: 1px white solid;
+   border-radius: 25px;
+   padding: 10px;
+margin: 15px;
+}
+.ft-cont ul{
+   margin: 20px;
+}
+
+.ft-cont .contact{
+   margin: 20px;
+}
+
+@media only screen and (max-width:1284px){
+  
+      
+     .nav-icons{
+
+margin-left: 70%;
+}
+      .news-letter{
+ 
+   width: 50%;
+
+   margin-left: 200px;
+ 
+
+}
+.news-letter button{
+   width: 60%;
+   padding: 10px;
+   margin-top: 10px;
+   margin-left: 0px;
+
+}
+.footer{
+width: 100%;
+   margin-top: 150px;
+   padding-top: 200px;
+
+}
+.news-letter input[type=email]{
+
+width: 90%;
+   
+}
+
+.test{
+   background-color:  hsl(219, 30%, 18%);
+   width: 25%;
+  
+   margin: 15px;
+   padding: 15px;
+  
+}
+
+
+}
+
+@media only screen and (max-width:703px){
+   .nav-icons{
+
+margin-left: 60%;
+}
+.nav-icons li{
+   margin-left: 15px;
+}
+}
+
+@media only screen and (max-width:775px){
+.test{
+   width:25%;
+   margin: 10px;
+}
+
+.testimonials{
+ 
+   padding: 0px;
+}
+}
+
+@media only screen and (max-width:651px){
+   .test{
+      width: 100%;
+      margin:0px;
+      margin-bottom: 15px;
+
+   }
+   .testimonials{
+       justify-content: center;
+       align-items: center;
+       padding: 50px;
+    
+       margin-left: 50px;
+   }
+
+   .news-letter{
+ 
+      width: 60%;
+   
+      margin-left: 100px;
+    
+   
+   }
+
+   .col-item{
+
+      width: 100%;
+      margin: 25px;
+      
+   }
+
+   .col-info{
+      width: 100%;
+   
+   }
+.columns{
+   padding: 20px;
+}
+
+}
+
+@media only screen and (max-width:375px){
+   html{
+      width:600px;
+   }
+   .news-letter{
+      width:100%;
+   }
+
+
+   .nav-icons{
+      margin-left: 90%;
+      width:100%;
+   }
+}
